@@ -12,14 +12,14 @@ public class Exercicio1 {
 		System.out.printf("Digite seu salário: ");
 		salario = leia.nextFloat();
 
-		System.out.printf("\nDigite o valor do abono: ");
+		System.out.printf("Digite o valor do abono: ");
 		abono = leia.nextFloat();
 		
 		leia.close();
 		
 		novoSalario = salario + abono;
 
-		System.out.println("\nNovo salário: " + novoSalario);
+		System.out.printf("\nNovo salário: %.2f" , novoSalario);
 
 	}
 
