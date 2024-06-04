@@ -25,7 +25,7 @@ public class Exercicio2 {
 		
 		Media = (Nota1 + Nota2 + Nota3 + Nota4) / 4;
 		
-		System.out.println("\nSua média: " + Media);
+		System.out.printf("\nSua média: " + Media);
 
 	}
 
